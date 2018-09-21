@@ -1,2 +1,8 @@
-# qsec_queue_framework
-The repository for the Quality Software Engineering Challenge - Mission 006 - Mission 006 - The Queue Framework. See https://github.com/krist00fer/qsec/
+# The Queue Framework
+The repository for the [Quality Software Engineering Challenge](https://github.com/krist00fer/qsec/) - Mission 006 - Mission 006 - The Queue Framework.
+
+##What does it do
+The Queue Framework is re-usable open source queuing library distributed as a cross-platform .NET Standard library.
+
+## How to contribute
+See the [contributing guidelines](CONTRIBUTING.md)
