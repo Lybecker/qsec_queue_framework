@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace QueueFramework
@@ -14,7 +13,7 @@ namespace QueueFramework
         {
             var newItemPair = new KeyValuePair<int, T>(priority, item);
 
-            var index = items.FindIndex(x => x.Key <= priority);
+            var index = items.FindIndex(x => x.Key >= priority);
             if (index >= 0)
             {
                 items.Insert(index, newItemPair);
